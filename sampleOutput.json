@@ -1,0 +1,240 @@
+{
+    "status": "ok",
+    "totalResults": 37,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Holly Ellyatt",
+            "title": "Ukraine war live updates: Xi invites Putin to China as talks in Moscow continue; Russian mercenaries say Kyiv is preparing counterattack - CNBC",
+            "description": "It's the second day of Chinese President Xi Jinping's state visit to Moscow Tuesday. He and President Putin could sign a number of bilateral agreements today.",
+            "url": "https://www.cnbc.com/2023/03/21/ukraine-war-live-updates-latest-news-on-russia-and-the-war-in-ukraine.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/105446461-1536763708632rts211io.jpg?v=1679393180&w=1920&h=1080",
+            "publishedAt": "2023-03-21T10:06:00Z",
+            "content": "Chinese President Xi Jinping said Tuesday that he's invited his Russian counterpart Vladimir Putin to visit China this year, Russian news agencies reported Tuesday.\r\n\"I yesterday invited President Pu… [+888 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Sam Meredith",
+            "title": "'A financial banana republic': UBS-Credit Suisse deal puts Switzerland's reputation on the line - CNBC",
+            "description": "The demise of banking giant Credit Suisse sent shockwaves through financial markets and appears to have dealt a blow to Switzerland's reputation for stability.",
+            "url": "https://www.cnbc.com/2023/03/21/ubs-credit-suisse-deal-puts-switzerlands-reputation-on-the-line.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/107212124-1679390220529-gettyimages-125003964-Par6335063.jpeg?v=1679393003&w=1920&h=1080",
+            "publishedAt": "2023-03-21T10:03:23Z",
+            "content": "Switzerland, a country heavily dependent on finance for its economy, is on track to see its two biggest and best-known banks merge into just one financial giant.\r\nThe demise of banking giant Credit S… [+2835 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Helen Regan, Josh Pennington, Tatiana Arias, Elise Garofalo, Sarah Dean",
+            "title": "Russian cruise missiles destroyed in strike in Crimea, Ukraine Defense Ministry says - CNN",
+            "description": "Ukraine's Ministry of Defense said late Monday that a strike destroyed Russian \"Kalibr\" cruise missiles that were being transported by train in the town of Dzhankoi, in Russian-occupied Crimea.",
+            "url": "https://www.cnn.com/2023/03/21/europe/crimea-russian-missiles-destroyed-ukraine-intl-hnk/index.html",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230321120600-crimea-blast-0321.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2023-03-21T09:35:00Z",
+            "content": "Ukraines Ministry of Defense said late Monday that a strike destroyed Russian Kalibr cruise missiles that were being transported by train in the town of Dzhankoi, in Russian-occupied Crimea.\r\nUkraini… [+2806 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Fox Business"
+            },
+            "author": "Eric Revell",
+            "title": "Regional and community banks rally to call for FDIC backup - Fox Business",
+            "description": "Mid-sized regional banks and community banks around the country are urging regulators to consider lifting the FDIC's threshold for uninsured deposits after they granted exceptions.",
+            "url": "https://www.foxbusiness.com/markets/regional-community-banks-rally-call-for-fdic-backup",
+            "urlToImage": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2023/03/0/0/GettyImages-1248470806.jpg?ve=1&tl=1",
+            "publishedAt": "2023-03-21T08:03:14Z",
+            "content": "Mid-sized regional banks\r\n and their community banking counterparts around the country are calling on the Federal Deposit Insurance Corporation (FDIC) to insure all bank deposits to prevent bank runs… [+4560 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Oliver Darcy",
+            "title": "Fox News producer files explosive lawsuits against the network, alleging she was coerced into providing misleading Dominion testimony - CNN",
+            "description": "A Fox News producer on Monday filed a pair of explosive lawsuits against the right-wing talk channel, alleging that the network's lawyers coerced her into providing misleading testimony in Dominion Voting Systems' $1.6 billion defamation case against the comp…",
+            "url": "https://www.cnn.com/2023/03/21/media/fox-news-producer-lawsuit/index.html",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230321125412-fox-news-ny-0309.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2023-03-21T07:50:00Z",
+            "content": "A Fox News producer on Monday filed a pair of explosive lawsuits against the right-wing talk channel, alleging that the networks lawyers coerced her into providing misleading testimony in Dominion Vo… [+4739 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "New York Post"
+            },
+            "author": "Allie Griffin",
+            "title": "Colorado dentist allegedly poisoned wife's protein shakes to start life with lover - New York Post ",
+            "description": "The affidavit paints a picture of what led up to the alleged murder — including a troubled marriage, infidelity, financial problems and even a past incident in which Craig reportedly poisoned…",
+            "url": "https://nypost.com/2023/03/21/colorado-dentist-james-craig-allegedly-poisoned-wifes-protein-shakes-to-start-life-with-lover/",
+            "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2023/03/colorado-dentist-kills-wife-0006.jpg?quality=75&strip=all&w=1024",
+            "publishedAt": "2023-03-21T06:36:00Z",
+            "content": "The Colorado dentist charged with killing his wife allegedly fatally poisoned her so he could start a new life with his alleged lover, according to an arrest warrant affidavit.\r\nJames Toliver Craig, … [+3914 chars]"
+        },
+        {
+            "source": {
+                "id": "independent",
+                "name": "Independent"
+            },
+            "author": "Oliver O'Connell",
+            "title": "Trump launches furious lewd, homophobic attack on DeSantis as Florida governor muted on indictment - The Independent",
+            "description": "Former president lashes out on Truth Social after Florida governor’s dig at him over possible indictment",
+            "url": "https://www.independent.co.uk/news/world/americas/us-politics/desantis-trump-indictment-truth-social-b2304837.html",
+            "urlToImage": "https://static.independent.co.uk/2023/03/17/13/States_Legislation_Immigration_01268.jpg?quality=75&width=1200&auto=webp",
+            "publishedAt": "2023-03-21T06:06:30Z",
+            "content": "Sign up for the daily Inside Washington email for exclusive US coverage and analysis sent to your inbox\r\nGet our free Inside Washington email\r\nDonald Trump launched an especially below-the-belt swipe… [+2524 chars]"
+        },
+        {
+            "source": {
+                "id": "usa-today",
+                "name": "USA Today"
+            },
+            "author": "Bob Nightengale",
+            "title": "Shohei Ohtani delivers grand USA-Japan World Baseball Classic final - USA TODAY",
+            "description": "After helping Japan reach the World Baseball Classic final, Shohei Ohtani will play on the grandest stage of his professional career on Tuesday night.",
+            "url": "https://www.usatoday.com/story/sports/mlb/columnist/bob-nightengale/2023/03/20/shohei-ohtani-delivers-grand-usa-japan-world-baseball-classic-final/11513004002/",
+            "urlToImage": "https://www.gannett-cdn.com/presto/2023/03/21/USAT/894b1a83-e7d9-4288-9cb7-3ef5225f75af-USATSI_20279393.jpg?crop=1664,936,x0,y284&width=1664&height=936&format=pjpg&auto=webp",
+            "publishedAt": "2023-03-21T06:05:01Z",
+            "content": "MIAMI  Shohei Ohtani was standing at the entrance of Japans clubhouse late Monday night, his heart still racing, his smile still beaming, still is trying to wrap his head around what just happened.\r\n… [+5959 chars]"
+        },
+        {
+            "source": {
+                "id": "axios",
+                "name": "Axios"
+            },
+            "author": "Dave Lawler",
+            "title": "What Putin and Xi each get out of their \"friendship\" - Axios",
+            "description": "Xi Jinping is visiting his \"dear friend\" at a very difficult time.",
+            "url": "https://www.axios.com/2023/03/20/xi-putin-dear-friends-moscow-state-visit",
+            "urlToImage": "https://images.axios.com/7xIInPozEYH8xm3h0VgRYr7biXQ=/0x0:1920x1080/1366x768/2023/03/20/1679352648289.jpg",
+            "publishedAt": "2023-03-21T06:01:12Z",
+            "content": "Chinese President Xi Jinping is signaling solidarity with his \"dear friend\" Vladimir Putin this week in Moscow a visit that also underscores Russia's reliance on China to keep its economy and war mac… [+3110 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CBS Sports"
+            },
+            "author": "",
+            "title": "March Madness 2023: Reseeding the NCAA Tournament Sweet 16 teams from Alabama to Princeton - CBS Sports",
+            "description": "Hitting reset on the 2023 NCAA Tournament field with a reranking of the 16 teams remaining",
+            "url": "https://www.cbssports.com/college-basketball/news/march-madness-2023-reseeding-the-ncaa-tournament-sweet-16-teams-from-alabama-to-princeton/",
+            "urlToImage": "https://sportshub.cbsistatic.com/i/r/2023/03/20/e540c019-96b5-4776-82ff-19b8256e05d5/thumbnail/1200x675/2f408d157faefa11c69f84213406c582/mm-sweet16-reseed-v2-1seed-1.png",
+            "publishedAt": "2023-03-21T04:28:00Z",
+            "content": "The first two rounds of the 2023 NCAA Tournament are complete. The dust has settled, and now we're left with a Sweet 16 field that has teams meeting their pre-tournament expectations mixed with a few… [+1298 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Cheri Mossburg, Holly Yan",
+            "title": "Los Angeles school workers will go on a 3-day strike, shutting down the nation's second-largest district. Here's what they want - CNN",
+            "description": "A union representing 30,000 Los Angeles school custodians, cafeteria workers, bus drivers and other support staff will start a three-day strike Tuesday, effectively stopping classes for more than a half million students in the nation's second-largest school d…",
+            "url": "https://www.cnn.com/2023/03/21/us/lausd-seiu-local-99-strike/index.html",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230320113951-utla-solidarity-rally-0315.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2023-03-21T04:11:00Z",
+            "content": "A union representing 30,000 Los Angeles school custodians, cafeteria workers, bus drivers and other support staff will start a three-day strike Tuesday, effectively stopping classes for more than a h… [+5023 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Macworld"
+            },
+            "author": "Michael Simon",
+            "title": "Pair an M2 Mac Mini with a stunning Studio Display and save $350 right now - Macworld",
+            "description": "Amazon is knocking $99 off the 512GB Mac mini and $249 off the Studio Display.",
+            "url": "https://www.macworld.com/article/1664464/the-best-m2-mac-mini-for-most-people-is-99-off-right-now.html",
+            "urlToImage": "https://www.macworld.com/wp-content/uploads/2023/03/Apple-MacMini-M2-2023_review_2-1.jpg?quality=50&strip=all&w=1024",
+            "publishedAt": "2023-03-21T04:02:00Z",
+            "content": "Skip to contentType your search and hit enter\r\nWhen you purchase through links in our articles, we may earn a small commission. This doesn't affect our editorial independence\r\n.\r\nIf you’re looking fo… [+1380 chars]"
+        },
+        {
+            "source": {
+                "id": "the-washington-post",
+                "name": "The Washington Post"
+            },
+            "author": "Justin Jouvenal",
+            "title": "Abigail Zwerner gives first interview about shooting at Richneck Elementary - The Washington Post",
+            "description": "Zwerner spoke in a TV interview that aired on NBC Nightly News.",
+            "url": "https://www.washingtonpost.com/dc-md-va/2023/03/20/richneck-elementary-shooting-teacher-zwerner/",
+            "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/NRXSFMU2IERJZOZIVY3NEJ4ZH4.jpg&w=1440",
+            "publishedAt": "2023-03-21T03:35:00Z",
+            "content": "The Virginia teacher shot by a 6-year-old student in January said she is doing okay but her recovery has been challenging in her first interview since the incident, excerpts of which were aired Monda… [+3292 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "9to5Mac"
+            },
+            "author": "Filipe Espósito",
+            "title": "iPhone 15 USB-C port to have limited speed for non-certified cables - 9to5Mac",
+            "description": "Based on the latest reports, iPhone 15 will be the one to finally ditch the Lightning connector in favor of...",
+            "url": "https://9to5mac.com/2023/03/20/usb-c-faster-charging-iphone-15-certified-cables/",
+            "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2022/07/usb-c-iphone-lightning.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+            "publishedAt": "2023-03-21T03:24:00Z",
+            "content": "Based on the latest reports, iPhone 15 will be the one to finally ditch the Lightning connector in favor of USB-C. However, although USB-C has become an industry standard, Apple still plans to limit … [+2604 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "SciTechDaily"
+            },
+            "author": null,
+            "title": "Revolutionary Gigapixel 3D Microscope Captures Life in Jaw-Dropping Detail - SciTechDaily",
+            "description": "Stitching videos from dozens of cameras together provides unique 3D view of macroscopic experiments with microscopic detail. When a couple of plucky graduate students took the first picture with their pieced-together microscope, it turned out better than they…",
+            "url": "https://scitechdaily.com/revolutionary-gigapixel-3d-microscope-captures-life-in-jaw-dropping-detail/",
+            "urlToImage": "https://scitechdaily.com/images/Gigapixel-3D-Microscope.gif",
+            "publishedAt": "2023-03-21T03:13:27Z",
+            "content": "ByDuke UniversityMarch 20, 2023\r\nA new kind of microscope that stitches together videos from dozens of smaller cameras can provide researchers with 3D views of their experiments. Whether recording 3D… [+9271 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "YourTango"
+            },
+            "author": "Ruby Miranda",
+            "title": "3 Zodiac Signs Have 'Intense' Horoscopes On March 21, 2023 - YourTango",
+            "description": "Three zodiac signs have intense horoscopes on March 21, 2023, during Moon Square Mars.",
+            "url": "https://www.yourtango.com/2023359865/zodiac-signs-rough-horoscopes-march-21-2023",
+            "urlToImage": "https://www.yourtango.com/sites/default/files/styles/listing_big/public/image_blog/zodiac-signs-rough-horoscopes-march-21-2023.png?itok=jC2LEz4l",
+            "publishedAt": "2023-03-21T03:02:13Z",
+            "content": "Three zodiac signs have intense horoscopes on March 21, 2023. If you get away with having a blissful and perfect day during all of the Aries and Mars energy currently floating around us, count yourse… [+4324 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "The Guardian"
+            },
+            "author": "Guardian staff reporter",
+            "title": "Biden orders release of intelligence on potential links between Covid and Wuhan lab - The Guardian",
+            "description": "Move poses political risk for US president, who has a difficult relationship with his Chinese counterpart Xi Jinping",
+            "url": "https://www.theguardian.com/world/2023/mar/21/president-joe-biden-orders-release-of-us-intelligence-on-potential-links-between-covid-and-wuhan-lab",
+            "urlToImage": "https://i.guim.co.uk/img/media/a2f1f92d72a3107b05f0a065feeae99e0af6fa05/0_118_6048_3630/master/6048.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=baad8f49d156a781700df70752de8c95",
+            "publishedAt": "2023-03-21T02:18:37Z",
+            "content": "A bill requiring the release of intelligence materials on potential links between the outbreak of the Covid-19 pandemic and a laboratory in the Chinese city of Wuhan has been signed into law by US pr… [+1805 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Amanda Jackson",
+            "title": "2 Illinois teens on spring break killed in a sledding accident at Colorado's Copper Mountain - CNN",
+            "description": "Two teens on spring break were killed Sunday night in a sledding accident in a closed area of Copper Mountain Ski Resort in central Colorado.",
+            "url": "https://www.cnn.com/2023/03/20/us/colorado-illinois-teens-killed-sledding-accident/index.html",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230320173557-copper-mountain-resort-file.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2023-03-21T01:19:00Z",
+            "content": "Two teens on spring break were killed Sunday night in a sledding accident in a closed area of Copper Mountain Ski Resort in central Colorado.\r\nThe teens reportedly were riding tandem down the halfpip… [+1646 chars]"
+        }
+    ]
+}
