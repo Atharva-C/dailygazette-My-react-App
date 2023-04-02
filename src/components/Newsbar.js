@@ -59,7 +59,7 @@ export class Newsbar extends Component {
         return (
             <div>
                 <div className="container">
-                    <h1 className='text-center my-3 display-3'>***The Daily Gazette--Top headlines Today! ***</h1>
+                    <h1 className='text-center my-3 display-4'>***The Daily Gazette--Top headlines Today! ***</h1>
                     <div className="container text-center">
                         <div className="row row-cols-3">
                             {this.state.articles.map((element) => {
