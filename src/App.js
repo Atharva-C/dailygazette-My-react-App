@@ -1,6 +1,5 @@
 
 import './App.css';
-
 import React, { Component } from 'react'
 import Navbar from './components/Navbar';
 import Newsbar from './components/Newsbar';
@@ -10,7 +9,7 @@ export default class App extends Component {
     return (
       <div>
         <Navbar />
-        <Newsbar />
+        <Newsbar pagesize={6}/>
       </div>
     )
   }
