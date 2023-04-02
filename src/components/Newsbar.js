@@ -12,7 +12,6 @@ export class Newsbar extends Component {
             articles: [],
             loading: false,
             page: 1,
-            totalresults:1
         }
     }
 
@@ -28,7 +27,7 @@ export class Newsbar extends Component {
         this.setState({
             articles: parsedData.articles,
             page: this.state.page = 1,
-            totalresults: parsedData.totalresults
+            totalResults: parsedData.totalResults
         })
     }
 
@@ -77,7 +76,7 @@ export class Newsbar extends Component {
                 <div className="container my-5 text-center" >
                     <div className="btn-group " role="group" aria-label="First group">
                         <button type="button" disabled={this.state.page <= 1} className="btn btn-dark" onClick={this.handleclickprev}>Previous</button>
-                        <button type="button" disabled={this.state.page +1 > 7}className="btn btn-dark" onClick={this.handleclicknext}>Next</button>
+                        <button type="button" disabled={this.state.page +1 > Math.ceil(this.state.totalResults/this.props.pagesize)}className="btn btn-dark" onClick={this.handleclicknext}>Next</button>
                     </div>
                 </div>
             </div>
