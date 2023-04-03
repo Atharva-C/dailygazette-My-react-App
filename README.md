@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Daily Gazette is your everyday news app made with the help of news API with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
