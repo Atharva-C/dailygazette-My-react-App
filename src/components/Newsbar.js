@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Newscontent from '../Newscontent'
+import Spinner from './Spinner';
 
 export class Newsbar extends Component {
 
@@ -12,7 +13,6 @@ export class Newsbar extends Component {
             articles: [],
             loading: false,
             page: 1,
-            totalresults:1
         }
     }
 
@@ -21,37 +21,39 @@ export class Newsbar extends Component {
 
     async componentDidMount() {
         let url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=09cb5e70a5be433ea1416be1df1ba85e&pagesize=${this.props.pagesize}`;
+        this.setState({loading:true})
         let data = await fetch(url);
         let parsedData = await data.json();
-        console.log(parsedData);
-
         this.setState({
             articles: parsedData.articles,
             page: this.state.page = 1,
-            totalresults: parsedData.totalresults
+            totalResults: parsedData.totalResults,
+            loading:false
         })
     }
 
     handleclickprev = async () => {
         let url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=09cb5e70a5be433ea1416be1df1ba85e&page=${this.state.page -1}&pagesize=${this.props.pagesize}`;
+        this.setState({loading:true})
         let data = await fetch(url);
         let parsedData = await data.json();
-        console.log(parsedData);
         this.setState({
             page: this.state.page - 1,
-            articles: parsedData.articles
+            articles: parsedData.articles,
+            loading: false
         })
 
     }
 
     handleclicknext = async () => {
             let url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=09cb5e70a5be433ea1416be1df1ba85e&page=${this.state.page +1}&pagesize=${this.props.pagesize}`;
+            this.setState({loading: true})
             let data = await fetch(url);
             let parsedData = await data.json();
-            console.log(parsedData);
             this.setState({
                 page: this.state.page + 1,
-                articles: parsedData.articles
+                articles: parsedData.articles,
+                loading: false
             })
 
     }
@@ -60,10 +62,12 @@ export class Newsbar extends Component {
         return (
             <div>
                 <div className="container">
-                    <h1 className='text-center my-3 display-3'>***The Daily Gazette--Top headlines Today! ***</h1>
+                    <h1 id="heading" className="text-center my-5 display-4">Top headlines Today!</h1>
+                    {this.state.loading && <Spinner/>} 
+                    {/* means whenever loading== true, then only show the spinner */}
                     <div className="container text-center">
                         <div className="row row-cols-3">
-                            {this.state.articles.map((element) => {
+                            {!this.state.loading && this.state.articles.map((element) => {
                                 return <div className="col my-3" key="url">
                                     < Newscontent title={element.title ? element.title : ""} description={element.description ? element.description.slice(0, 80) : ""} imageUrl={element.urlToImage ? element.urlToImage : "https://static.vecteezy.com/system/resources/previews/000/198/221/original/vector-breaking-news-banner-background-with-world-map.jpg"} newsUrl={element.url} />
 
@@ -71,13 +75,14 @@ export class Newsbar extends Component {
                                 </div>
                             })
                             }
-                        </div>
+                            </div>
+
                     </div>
                 </div>
                 <div className="container my-5 text-center" >
                     <div className="btn-group " role="group" aria-label="First group">
-                        <button type="button" disabled={this.state.page <= 1} className="btn btn-dark" onClick={this.handleclickprev}>Previous</button>
-                        <button type="button" disabled={this.state.page +1 > 7}className="btn btn-dark" onClick={this.handleclicknext}>Next</button>
+                        <button type="button" disabled={this.state.page <= 1} className="btn btn-light" onClick={this.handleclickprev}>Prev</button>
+                        <button type="button" disabled={this.state.page +1 > Math.ceil(this.state.totalResults/this.props.pagesize)}className="btn btn-light" onClick={this.handleclicknext}>Next</button>
                     </div>
                 </div>
             </div>
