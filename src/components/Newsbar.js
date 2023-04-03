@@ -62,7 +62,7 @@ export class Newsbar extends Component {
         return (
             <div>
                 <div className="container">
-                    <h1 id="heading" className="text-center my-5 display-4">***Top headlines Today! ***</h1>
+                    <h1 id="heading" className="text-center my-5 display-4">Top headlines Today!</h1>
                     {this.state.loading && <Spinner/>} 
                     {/* means whenever loading== true, then only show the spinner */}
                     <div className="container text-center">
@@ -75,7 +75,8 @@ export class Newsbar extends Component {
                                 </div>
                             })
                             }
-                        </div>
+                            </div>
+
                     </div>
                 </div>
                 <div className="container my-5 text-center" >
