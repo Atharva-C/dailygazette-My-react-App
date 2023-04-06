@@ -1,8 +1,22 @@
 import React, { Component } from 'react'
-import Newscontent from '../Newscontent'
+import Newscontent from './Newscontent'
 import Spinner from './Spinner';
+import PropTypes from 'prop-types'
+
 
 export class Newsbar extends Component {
+
+    static defaultpropTypes ={
+        country: 'in',
+        pagesize: 8,
+        category: 'sports'
+    }
+
+    static propTypes={
+        country: PropTypes.string,
+        pagesize: PropTypes.number,
+        category: PropTypes.string
+    }
 
     articles = []
     constructor() {
@@ -20,20 +34,20 @@ export class Newsbar extends Component {
     //componentDidMount() function runs after the render() function
 
     async componentDidMount() {
-        let url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=09cb5e70a5be433ea1416be1df1ba85e&pagesize=${this.props.pagesize}`;
+        let url = `https://newsapi.org/v2/top-headlines?category=${this.props.category}&country=${this.props.country}&apiKey=09cb5e70a5be433ea1416be1df1ba85e&pagesize=${this.props.pagesize}`;
         this.setState({loading:true})
         let data = await fetch(url);
         let parsedData = await data.json();
         this.setState({
             articles: parsedData.articles,
-            page: this.state.page = 1,
+            page: this.state.page,
             totalResults: parsedData.totalResults,
             loading:false
         })
     }
 
     handleclickprev = async () => {
-        let url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=09cb5e70a5be433ea1416be1df1ba85e&page=${this.state.page -1}&pagesize=${this.props.pagesize}`;
+        let url = `https://newsapi.org/v2/top-headlines?category=${this.props.category}&country=${this.props.country}&apiKey=09cb5e70a5be433ea1416be1df1ba85e&page=${this.state.page -1}&pagesize=${this.props.pagesize}`;
         this.setState({loading:true})
         let data = await fetch(url);
         let parsedData = await data.json();
@@ -46,7 +60,7 @@ export class Newsbar extends Component {
     }
 
     handleclicknext = async () => {
-            let url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=09cb5e70a5be433ea1416be1df1ba85e&page=${this.state.page +1}&pagesize=${this.props.pagesize}`;
+            let url = `https://newsapi.org/v2/top-headlines?category=${this.props.category}&country=${this.props.country}&apiKey=09cb5e70a5be433ea1416be1df1ba85e&page=${this.state.page +1}&pagesize=${this.props.pagesize}`;
             this.setState({loading: true})
             let data = await fetch(url);
             let parsedData = await data.json();
@@ -69,7 +83,7 @@ export class Newsbar extends Component {
                         <div className="row row-cols-3">
                             {!this.state.loading && this.state.articles.map((element) => {
                                 return <div className="col my-3" key="url">
-                                    < Newscontent title={element.title ? element.title : ""} description={element.description ? element.description.slice(0, 80) : ""} imageUrl={element.urlToImage ? element.urlToImage : "https://static.vecteezy.com/system/resources/previews/000/198/221/original/vector-breaking-news-banner-background-with-world-map.jpg"} newsUrl={element.url} />
+                                    <Newscontent title={element.title ? element.title : ""} description={element.description ? element.description.slice(0, 80) : ""} imageUrl={element.urlToImage ? element.urlToImage : "https://static.vecteezy.com/system/resources/previews/000/198/221/original/vector-breaking-news-banner-background-with-world-map.jpg"} newsUrl={element.url} date={element.publishedAt} author={element.author? element.author:"unknown"}/>
 
                                     {/* here the parameter named "element" is passed so that we can iterate among all the news items(array elements) which are taken from the json file by the news api */}
                                 </div>
