@@ -83,7 +83,7 @@ export class Newsbar extends Component {
                         <div className="row row-cols-3">
                             {!this.state.loading && this.state.articles.map((element) => {
                                 return <div className="col my-3" key="url">
-                                    <Newscontent title={element.title ? element.title : ""} description={element.description ? element.description.slice(0, 80) : ""} imageUrl={element.urlToImage ? element.urlToImage : "https://static.vecteezy.com/system/resources/previews/000/198/221/original/vector-breaking-news-banner-background-with-world-map.jpg"} newsUrl={element.url} />
+                                    <Newscontent title={element.title ? element.title : ""} description={element.description ? element.description.slice(0, 80) : ""} imageUrl={element.urlToImage ? element.urlToImage : "https://static.vecteezy.com/system/resources/previews/000/198/221/original/vector-breaking-news-banner-background-with-world-map.jpg"} newsUrl={element.url} date={element.publishedAt} author={element.author? element.author:"unknown"}/>
 
                                     {/* here the parameter named "element" is passed so that we can iterate among all the news items(array elements) which are taken from the json file by the news api */}
                                 </div>
